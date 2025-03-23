@@ -76,7 +76,17 @@ cd ../library_frontend
 ```bash
 npm install
 ```
+### add > package.json > 
+```bash
+"eslintConfig": {
+  "extends": "react-app",
+  "env": {
+    "jest": true
+  }
+},
+```
 
+  
 #### 🔹 Start the React development server
 ```bash
 npm start
